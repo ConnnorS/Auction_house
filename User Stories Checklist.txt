@@ -1,0 +1,107 @@
+User story 1 (done):
+- A Main menu dialog is displayed on program start
+- The user can provide a numeric value which is validated
+- All actions other than exit follow the question/answer/validation style
+- The program stops when the user selects exit
+- Other sections are completed in further user stories
+
+User story 2 (done):
+- The registration dialog allows the user to enter their name, email, and password
+- All three inputs are validated according to the Appendix Items 1, 2, and 4
+- The email address is checked to ensure it doesn't already exist
+- The client's information is saved to the relevant text file
+- The system allows at least 100 clients to be registered
+- After registration control returns to the Main Menu
+
+User story 3 (done):
+- A sign in dialog is available on the main menu which allows the user to enter their email and password to sign in
+- If the email and password combination match, the program moves to the Client Menu
+- If the email and password combination DO NOT match, the program informs the user 
+	- and returns to the main menu
+
+User story 4 (done):
+- A log out option is available in the Client Menu
+- Once selected, control returns to the Main Menu
+- The user must re-enter their email and password to sign in again
+
+User story 5 (done):
+- Every time a client signs in, the system checks if they have signed in before, if not, it prompts them for their address
+- The home address is validated according to Appendix 1, Item 3
+- All subsequent sign ins progress straight to the Client Menu
+
+User story 6 (done):
+- All client data that has been entered is saved to a text file in a suitable format when it is accepted by the system
+
+User story 7 (done):
+- All client data is available when the system starts (assuming the client has logged in and provides the right credentials etc)
+
+User story 8 (done):
+- An Advertise Product dialog allows the client to add a product to their list of advertised products
+- The product's information is validated according to Appendix 1, Item 6
+- The system allows at least 100 products to be advertised by each client
+
+User story 9 (done):
+- A Product List dialog is available in the Client Menu which displays all products currents advertised by the client
+- If the client has no advertised products, an informative message is displayed
+- Products are displayed in tabular form, with one product per row. Each row has a number
+- Each row contains the product name, description, and price. If a bid is present it provides the highest bidder's name and email address as well as the bid amount. If no bid is present, a "-" appears in each column
+- The information is displayed in a single row and all fields are separated by tab characters
+- Products are ranked in ascending order by name, then description, then price
+- After the list is displayed, control returns to the Client Menu
+
+User story 10 (done):
+- A Product Search dialog is available on the Client Menu
+- The search phrase is validated according to the rules in Appendix 1, Item 5
+- After a valid search, all products who's name or decription (besides the user's products) contain the search phrase are shown
+	- The "ALL" keyword returns all products not sold by the user
+- If no products are found, the user is informed
+- The search results are displayed in the same manner as Story 9
+
+User story 11 (done):
+- Once products are shown, the user is prompted to enter "yes" or "no" to bid on an item
+- If they respond with "yes", they can supply a validated integer within the range of the row numbers
+- The user is then requested to supply a bid amount:
+	- The bid amount is entered as a currency amount according to Appendix 1, Item 7
+	- The bid amount is checked to ensure it is greater than the current highest bid
+
+User story 12 (done):
+- A List Product Bids dialog is available on the Client Menu which shows all products advertised by the current client that have a bid
+- If no products have a bid, the user is informed
+- All products are displayed as per Story 9
+
+User story 13 (done):
+- The user is promped to enter "yes" or "no" in the Sell Product dialog
+- If the user enters "yes"
+	- They can supply a validated integer within the range of the row numbers
+	- The product is then sold to the successful bidder with delivery information
+	- The product is then removed from the productlist and moved to the sold products list
+
+User story 14 (done):
+- The user is prompted to enter their delivery options after placing a bid
+- The user can select between two options
+	- Click and collect
+		- The click and collect times meet Appendix 1, Item 8
+	- Home delivery
+		- The user can choose to select a new address or use their existing one
+
+User story 15 (done):
+- A Purchased Items dialog is available on the Client Menu
+- If no products have been purchased, the user is informed
+- Products are displayed in tabular form and numbered
+- Each row contains the seller's email, product name, description, listed price, amount paid, and delivery options
+- The information is on a single row separated by tab characters
+- Products are ranked in ascending order by name, then description, then price
+
+
+
+
+
+
+
+
+
+
+
+
+
+

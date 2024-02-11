@@ -1,0 +1,6 @@
+aaaa	zzzz	1	laz@uni.edu	Trader Larry	-	-	0	-	-	-
+aaaa	xxxx	1	laz@uni.edu	Trader Larry	-	-	0	-	-	-
+aaaa	zzzz	0.5	laz@uni.edu	Trader Larry	-	-	0	-	-	-
+aaaa	bbbb	5	laz@uni.edu	Trader Larry	-	-	0	-	-	-
+aaaa	a	5	laz@uni.edu	Trader Larry	-	-	0	-	-	-
+aaaa	bbbb	0.01	laz@uni.edu	Trader Larry	-	-	0	-	-	-
